@@ -1,4 +1,4 @@
-## 📁 Projet Data Warehouse : Analyse des Ventes de Supermarché
+## Projet Data Warehouse : Analyse des Ventes de Supermarché
 
 Ce projet a pour objectif la mise en place d'un **Entrepôt de Données (Data Warehouse)** pour un supermarché, en utilisant le processus **ETL (Extraction, Transformation, Chargement)** intégralement développé en Python.
 
@@ -11,7 +11,7 @@ L'entrepôt est modélisé selon un **Schéma en Étoile** pour permettre l'anal
 
 ***
 
-## 🛠️ Prérequis Techniques
+## Prérequis Techniques
 
 Pour exécuter ce projet, vous devez disposer des outils et librairies suivants :
 
@@ -36,7 +36,7 @@ sqlalchemy
 psycopg2-binary  # Pour PostgreSQL
 # mysql-connector-python  # Pour MySQL
 ```
-## 🚀 Guide de Démarrage Rapide
+## Guide de Démarrage Rapide
 ### Étape 1 : Configuration de la Base de Données
 1. Assurez-vous que votre instance PostgreSQL (ou autre SGBD) est en cours d'exécution.
 
@@ -65,7 +65,7 @@ python 02_Scripts_Python_ETL/etl_main.py
 
 2. Visualisation : Connectez votre outil de BI (Metabase, Power BI, etc.) à la base de données supermarket_dw pour générer le tableau de bord de visualisation.
 
-## 📂 Structure des Dossiers
+## Structure des Dossiers
 Référence de la structure des fichiers du projet :
 
 * 01_Sources_Brutes/: Fichiers de données initiaux (supermarket_sales.csv, produits, clients...).
