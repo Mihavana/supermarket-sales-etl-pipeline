@@ -72,12 +72,16 @@ Référence de la structure des fichiers du projet :
 
 * 02_Scripts_Python_ETL/: Scripts Python de transformation et de chargement.
 
-* 03_BDD_SQL/: Scripts SQL de création de tables et d'analyse.
+* 03_BDD_SQL/: Scripts SQL de création de tables
 
-* 04_Analyses_Visualisations/: Sorties de l'analyse et du tableau de bord.
+* 04_Analyses_SQL/: Sorties de l'analyse
 
-* 05_Livrables/: Rapport final et présentation.
+* 05_Visualisations/: Visualisations avec Matplotlib et Seaborn
+
+* 06_Livrable/: Rapport final
 
 * README.md (ce fichier)
 
 * requirements.txt
+
+* run_pipeline.py : Afin d'executer tous les codes en une seule fois
