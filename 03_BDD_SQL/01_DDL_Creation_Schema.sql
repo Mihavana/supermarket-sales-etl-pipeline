@@ -1,3 +1,4 @@
+-- Active: 1765222492522@@127.0.0.1@5432@supermarket_dw
 -- Création de la table DIM_TEMPS
 CREATE TABLE DIM_TEMPS (
     date_id INT PRIMARY KEY, -- Clé de substitution: AAAAMMJJ
